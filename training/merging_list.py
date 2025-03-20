@@ -1,3 +1,6 @@
+"""
+Sorting a unsorted list
+"""
 def ex1(ls):
     cmp_idx = 0
     for idx in range(len(ls)):
@@ -10,6 +13,9 @@ def ex1(ls):
             cmp_idx += 1
     print(ls)
 
+"""
+Merging two sorted lists
+"""
 def ex2(l1, l2):
     ls = []
     len_list = len(l1) + len(l2)
