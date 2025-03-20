@@ -63,7 +63,7 @@ def summarize_order(order):
     items = [item["name"] for item in order]
     subtotal = calculate_subtotal(order)
     tax = calculate_tax(subtotal)
-    total = subtotal + tax
+    total = round(subtotal + tax, 2)
     summary = (items, total)
     return summary
 
