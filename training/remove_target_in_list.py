@@ -12,4 +12,4 @@ def ex2(nums, target):
 
         
 print(ex1(nums, 2))
-#print(ex2(nums, 2))
+#print(ex2(nums, 2))  
