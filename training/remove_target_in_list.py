@@ -5,11 +5,5 @@ def ex1(nums, target):
         if target == nums[i]:
             del nums[i]
             return nums
-
-def ex2(nums, target):
-    nums.remove(target)
-    return nums
-
         
 print(ex1(nums, 2))
-#print(ex2(nums, 2))  
