@@ -45,5 +45,6 @@ list2 = [3, 4, 6, 8, 10]
 list_sum = list1 + list2
 
 ex1(list_sum)
-#ex2(list1, list2)
-
+ex2(list1, list2)
+list_sum.sort()
+print(list_sum)
