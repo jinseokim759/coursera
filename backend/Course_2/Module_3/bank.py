@@ -50,8 +50,8 @@ class Swiss(Bank):
                  original account balance instead.
     """
     ### WRITE YOUR CODE HERE
-    def __init__(self):
-        self.bal = 1000
+    def __init__(self, bal):
+        self.bal = bal
     
     def basicinfo(self):
         print("This is Swiss Bank")
@@ -71,7 +71,7 @@ class Swiss(Bank):
 # Driver Code
 def main():
     assert issubclass(Bank, ABC), "Bank must derive from class ABC"
-    s = Swiss()
+    s = Swiss(5000)
     print(s.basicinfo())
     s.withdraw(30)
     s.withdraw(1000)
